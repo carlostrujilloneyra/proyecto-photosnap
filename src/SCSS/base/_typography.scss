@@ -1,0 +1,35 @@
+
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+h1, h2{
+	font-size: 3.2rem;
+	text-transform: uppercase;
+
+	@include media-query(tablet){
+		font-size: 4rem;
+	}
+}
+
+p{
+	font-size: 1.5rem;
+
+	@include media-query(tablet){
+		font-size: 1.6rem;
+	}
+}
+
+h3{
+	font-size: 1.8rem;
+	font-weight: bolder;
+}
+
+h4{
+	font-size: 1.5rem;
+}
+
+// Opcional, podríamos cambiar:
+a{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}

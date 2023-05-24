@@ -1,0 +1,21 @@
+@use '../abstracts/mixins' as *;
+
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+	font-family: 'DM Sans', sans-serif;
+}
+
+body{
+	padding: 2.4rem;
+
+	@include media-query(tablet){
+		padding: 3.2rem;
+	}
+
+}
