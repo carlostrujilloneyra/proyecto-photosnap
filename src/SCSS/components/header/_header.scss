@@ -10,5 +10,10 @@
 	@include media-query(tablet){
 		padding: 3.2rem;
 	}
+}
 
+.logo-header{
+	&:hover{
+		cursor: pointer;
+	}
 }

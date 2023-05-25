@@ -10,10 +10,12 @@ export interface articleInterface{
 	buttonText: string,
 	arrowButton: string,
 	arrowButtonWhite: string,
+	changePosition: boolean,
 	whiteColor: boolean
 }
 
 interface Image{
 	bg_mobile: string,
+	bg_tablet: string,
 	bg_desktop: string
 }

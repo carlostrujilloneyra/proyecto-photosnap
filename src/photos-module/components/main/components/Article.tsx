@@ -8,10 +8,11 @@ interface Props{
 export const Article = ({ article:
 	{ subtitle,
 		description,
-		image: { bg_mobile, bg_desktop },
+		image: { bg_mobile, bg_tablet, bg_desktop },
 		buttonText,
 		arrowButton,
 		arrowButtonWhite,
+		changePosition,
 		whiteColor } }: Props) => {
 	
 	const propsButton = {
@@ -20,13 +21,23 @@ export const Article = ({ article:
 		arrowButton,
 		arrowButtonWhite
 	}
+
+	console.log(changePosition)
 	
 	return (
 		<>
-			<div className={`main-article ${whiteColor ? 'white' : ''}`}>
+			<div className={`main-article ${whiteColor || changePosition ? 'white' : ''}`}>
 
 				<div className='container-image'>
-					<p>Soy una imagen</p>
+					<picture>
+						
+						<source media="(min-width:1024px)" srcSet={bg_desktop} />
+						
+						<source media='(min-width:600px)' srcSet={bg_tablet} />
+
+						<img src={bg_mobile} alt={subtitle} />
+						
+					</picture>
 				</div>
 
 				<div className= {`main-article__info ${whiteColor ? 'white' : ''}`}>
