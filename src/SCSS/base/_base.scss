@@ -11,11 +11,8 @@ html{
 	font-family: 'DM Sans', sans-serif;
 }
 
-body{
-	padding: 2.4rem;
-
-	@include media-query(tablet){
-		padding: 3.2rem;
-	}
-
+// Clase que ayudará con el width:
+.container{
+	max-width: 125rem;
+	margin: auto;
 }
