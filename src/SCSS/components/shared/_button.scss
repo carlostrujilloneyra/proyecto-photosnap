@@ -1,0 +1,23 @@
+@use '../../abstracts/variables' as *;
+
+.main-button{
+	background-color: $blackColor;
+	border: none;
+	border-radius: .4rem;
+	color: $whiteColor;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	outline: none;
+	padding: 1.2rem 2.4rem;
+	text-transform: uppercase;
+	transition: all .4s;
+
+	&:hover{
+		background-color: $lightGrey;
+		cursor: pointer;
+		color: $blackColor;
+		transition: all .4s;
+	}
+
+}
+

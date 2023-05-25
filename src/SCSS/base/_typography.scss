@@ -28,8 +28,28 @@ h4{
 	font-size: 1.5rem;
 }
 
+li{
+	@include media-query(tablet){
+		margin: 0 1.6rem;
+	}
+
+	@include media-query(desktop){
+		margin: 0 3.2rem;
+	}
+
+}
 // Opcional, podríamos cambiar:
-a{
+.links-header{
 	font-size: 1.2rem;
 	text-transform: uppercase;
+	color: $blackColor;
+	text-decoration: none;
+	font-weight: bolder;
+	transition: all .5s;
+
+	&:hover{
+		text-decoration: underline;
+		transition: all .5s;
+	}
+
 }

@@ -3,7 +3,7 @@ import { FeaturesPage, PricingPage, StoriesPage } from "../photos-module/pages";
 type JSXComponent = () => JSX.Element;
 
 interface Route{
-	to?: string,
+	to: string,
 	path: string,
 	Component: JSXComponent,
 	name: string
@@ -11,8 +11,8 @@ interface Route{
 
 export const routes: Route[] = [
 	{
-		to: '/',
-		path: '/',
+		to: '/stories',
+		path: '/stories',
 		Component: StoriesPage,
 		name: 'Stories'
 	},

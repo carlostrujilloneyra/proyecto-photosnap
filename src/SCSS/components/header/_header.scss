@@ -1,3 +1,4 @@
+@use '../../abstracts/mixins' as *;
 
 .main-header{
 	border: 1px solid red;
@@ -6,4 +7,9 @@
 	align-items: center;
 	height: 7.2rem;
 	padding: 2.4rem;
+
+	@include media-query(tablet){
+		padding: 3.2rem;
+	}
+
 }

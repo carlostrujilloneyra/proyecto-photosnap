@@ -1,7 +1,18 @@
+@use '../../abstracts/mixins' as *;
 
 .container-nav{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+
+	@include media-query(tablet){
+		width: 60%;
+	}
+
+	@include media-query(desktop){
+		width: 55%;
+	}
+
 }
 
 ul{
