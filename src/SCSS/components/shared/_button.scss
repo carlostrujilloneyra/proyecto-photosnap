@@ -35,8 +35,11 @@
 	grid-template-columns: repeat(2, 1fr);
 	outline: none;
 	text-transform: uppercase;
+	transition: all .4s;
 
 	&:hover{
+		transition: all .4s;
+		text-decoration: underline;
 		cursor: pointer;
 	}
 
