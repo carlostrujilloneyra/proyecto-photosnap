@@ -5,6 +5,7 @@
 h1, h2{
 	font-size: 3.2rem;
 	text-transform: uppercase;
+	line-height: 1.1;
 
 	@include media-query(tablet){
 		font-size: 4rem;

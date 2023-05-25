@@ -1,5 +1,6 @@
 @use '../../abstracts/variables' as *;
 
+// Botón del header
 .main-button{
 	background-color: $blackColor;
 	border: none;
@@ -21,3 +22,26 @@
 
 }
 
+// Botón negro
+.button-article{
+	background-color: transparent;
+	border: none;
+	color: $blackColor;
+	column-gap: 2rem;
+	display: grid;
+	font-weight: bolder;
+	font-size: 1.4rem;
+	grid-template-columns: repeat(2, 1fr);
+	outline: none;
+	text-transform: uppercase;
+
+	&:hover{
+		cursor: pointer;
+	}
+
+	// Clase condicionada
+	&.white{
+		color: $whiteColor;
+	}
+
+}

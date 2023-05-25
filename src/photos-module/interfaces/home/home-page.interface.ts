@@ -3,10 +3,14 @@
 
 // Tipos de datos para "Home"
 
-export interface articlesInterface{
+export interface articleInterface{
 	subtitle: string,
 	description: string,
-	image: Image
+	image: Image,
+	buttonText: string,
+	arrowButton: string,
+	arrowButtonWhite: string,
+	whiteColor: boolean
 }
 
 interface Image{
