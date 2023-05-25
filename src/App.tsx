@@ -1,9 +1,9 @@
-import { Header } from "./photos-module/components/header/Header"
+import { AppRouter } from "./router/AppRouter"
 
 export const App = () => {
 	return (
 		<>
-			<Header />
+			<AppRouter />
 		</>
 	)
 }
