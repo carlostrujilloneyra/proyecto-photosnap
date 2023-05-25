@@ -1,4 +1,4 @@
-import { articlesInterface } from '../../interfaces/home-page.interface';
+import { articlesInterface } from '../../interfaces/home/home-page.interface';
 
 // Aquí irán los arreglos con info a utilizar en los componentes...
 
