@@ -1,12 +1,13 @@
 @use '../../abstracts/mixins' as *;
 
 .container-nav{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	display: none;
 
 	@include media-query(tablet){
 		width: 60%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	@include media-query(desktop){

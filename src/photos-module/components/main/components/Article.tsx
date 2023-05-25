@@ -23,9 +23,9 @@ export const Article = ({ article:
 	
 	return (
 		<>
-			<div className='main-article'>
+			<div className={`main-article ${whiteColor ? 'white' : ''}`}>
 
-				<div>
+				<div className='container-image'>
 					<p>Soy una imagen</p>
 				</div>
 

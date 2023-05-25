@@ -10,9 +10,8 @@ interface Button{
 	arrowButton: string
 }
 
-export const Button = ({ button: { buttonText, whiteColor, arrowButtonWhite, arrowButton } }: Props) => {
-	
-	console.log(buttonText)
+export const Button = (
+	{ button: { buttonText, whiteColor, arrowButtonWhite, arrowButton } }: Props) => {
 
 	return (
 		<>

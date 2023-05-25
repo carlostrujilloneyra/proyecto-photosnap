@@ -8,6 +8,18 @@
 		grid-template-columns: minmax(50rem, 55rem) 1fr;
 	}
 
+	&.white{
+
+		@include media-query(desktop){
+			grid-template-columns: 1fr minmax(50rem, 55rem);
+			
+			.container-image{
+				order: 2;
+			}
+
+		}
+	}
+
 	// Subtitle
 	h2{
 		margin-bottom: 1.6rem;
@@ -43,7 +55,7 @@
 
 	&.white{
 		background-color: $blackColor;
-		color: $whiteColor !important;
+		color: $whiteColor;
 	}
 
 }
