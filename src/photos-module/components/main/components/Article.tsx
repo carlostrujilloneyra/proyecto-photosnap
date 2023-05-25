@@ -1,12 +1,9 @@
 import { articleInterface } from '../../../interfaces/home/home-page.interface';
+import { Button } from './Button';
 
 interface Props{
 	article: articleInterface
 }
-
-// interface Article{
-// 	subtitle: string
-// }
 
 export const Article = ({ article:
 	{ subtitle,
@@ -16,6 +13,14 @@ export const Article = ({ article:
 		arrowButton,
 		arrowButtonWhite,
 		whiteColor } }: Props) => {
+	
+	const propsButton = {
+		buttonText,
+		whiteColor,
+		arrowButton,
+		arrowButtonWhite
+	}
+	
 	return (
 		<>
 			<div className='main-article'>
@@ -28,15 +33,9 @@ export const Article = ({ article:
 					<h2>{subtitle}</h2>
 					<p>{description}</p>
 					<div className="container-button">
-						<button
-							className={`button-article ${whiteColor ? 'white' : ''}`}
-						>
-							{buttonText}
-							<img src={whiteColor ? arrowButtonWhite : arrowButton}
-								alt="arrow-button"
-								color='white'
-							/>
-						</button>
+						<Button
+							button={propsButton}
+						/>
 					</div>
 				</div>
 

@@ -5,7 +5,7 @@ export const Main = () => {
 	return (
 		<>
 			<main className="container">
-				<section className="main-section">
+				<section>
 
 					{/* Aquí irán tres articles */}
 					{
