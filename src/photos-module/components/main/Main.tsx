@@ -1,9 +1,12 @@
-import { articlesArray } from "../../data/home/arrays-info"
 import { Article } from "./components"
+import { articlesArray } from '../../data';
 
 export const Main = () => {
 	return (
 		<>
+			
+			articlesArray
+
 			<main className="container">
 				<section>
 

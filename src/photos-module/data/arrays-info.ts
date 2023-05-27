@@ -1,5 +1,5 @@
-import { articleInterface } from '../../interfaces/home/home-page.interface';
-
+import { articleInterface } from '../interfaces/home/home-page.interface';
+	
 // Aquí irán los arreglos con info a utilizar en los componentes...
 export const articlesArray: articleInterface [] = [
 	{
