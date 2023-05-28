@@ -2,9 +2,7 @@
 export interface Storie {
 	image: Image,
 	name: string,
-	author: string,
-	textButton: string,
-	arrowButtonWhite: string
+	author: string
 }
 
 export interface Image {
