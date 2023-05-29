@@ -12,7 +12,7 @@
 
 	@include media-query(desktop){
 		grid-template-columns: repeat(4, minmax(25rem, 36rem));
-		grid-template-rows: repeat(1, minmax(38rem, 50rem));
+		grid-template-rows: repeat(auto-fill, minmax(38rem, 50rem));
 	}
 
 	// @include media-query(1200px){

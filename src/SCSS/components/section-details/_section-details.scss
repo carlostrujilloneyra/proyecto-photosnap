@@ -1,0 +1,10 @@
+@use '../../abstracts/mixins' as *;
+
+.section-details{
+	padding: 2.4rem;
+
+	@include media-query(tablet){
+		padding: 3.2rem;
+	}
+
+}
