@@ -27,7 +27,10 @@ export const Button = (
 				onClick={handleNavigate}
 			>
 				{buttonText}
-				<img src={whiteColor ? arrowButtonWhite : arrowButton} alt="arrow-button" />
+				<img
+					src={whiteColor ? arrowButtonWhite : arrowButton}
+					alt="arrow-button"
+				/>
 			</button>
 		</>
 	)

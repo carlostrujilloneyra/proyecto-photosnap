@@ -3,26 +3,26 @@ import { Social } from "../interfaces/socials/socials.interface";
 export const socials: Social[] = [
 	{
 		name: 'Facebook',
-		source: '../../assets/shared/desktop/facebook.svg'
+		source: '/src/assets/shared/desktop/facebook.svg'
 	},
 
 	{
 		name: 'YouTube',
-		source: '../../assets/shared/desktop/youtube.svg'
+		source: '/src/assets/shared/desktop/youtube.svg'
 	},
 
 	{
 		name: 'Twitter',
-		source: '../../assets/shared/desktop/twitter.svg'
+		source: '/src/assets/shared/desktop/twitter.svg'
 	},
 	
 	{
 		name: 'Pinterest',
-		source: '../../assets/shared/desktop/pinterest.svg'
+		source: '/src/assets/shared/desktop/pinterest.svg'
 	},
 
 	{
 		name: 'Instagram',
-		source: '../../assets/shared/desktop/instagram.svg'
+		source: '/src/assets/shared/desktop/instagram.svg'
 	}
 ];

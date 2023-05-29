@@ -1,3 +1,4 @@
+@use '../../abstracts/mixins' as *;
 @use '../../abstracts/variables' as *;
 
 // Botón del header
@@ -23,7 +24,7 @@
 }
 
 // Botón negro
-.button-article, .button-storie{
+.button-article, .button-storie, .button-footer{
 	background-color: transparent;
 	border: none;
 	color: $blackColor;
@@ -60,4 +61,28 @@
 
 .button-storie img{
 	justify-self: flex-end;
+}
+
+.button-footer{
+	color: white;
+
+	@include media-query(tablet){
+		grid-template-columns: 1fr 4.2rem;
+		font-size: 1.2rem;
+	}
+
+	@include media-query(desktop){
+		grid-template-columns: repeat(2, 1fr);
+		font-size: 1.4rem;
+	}
+
+	img{
+		justify-self: center;
+
+		@include media-query(tablet){
+			justify-self: flex-start;
+		}
+
+	}
+
 }
