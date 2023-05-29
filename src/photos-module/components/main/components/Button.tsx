@@ -8,23 +8,24 @@ interface Button{
 	buttonText: string,
 	whiteColor: boolean,
 	arrowButtonWhite: string,
-	arrowButton: string
+	arrowButton: string,
+	navigateRoute: string
 }
 
 export const Button = (
-	{ button: { buttonText, whiteColor, arrowButtonWhite, arrowButton } }: Props) => {
+	{ button: { buttonText, whiteColor, arrowButtonWhite, arrowButton, navigateRoute } }: Props) => {
 	
-	const navigate = useNavigate();
-	
-	const handleNavigate = () => {
-		navigate('/pricing')
+	const navigate = useNavigate();	
+
+	const handleNavigate = (route: string): void => {
+		navigate(route);
 	}
 
 	return (
 		<>
 			<button
 				className={`button-article ${whiteColor ? 'white' : ''}`}
-				onClick={handleNavigate}
+				onClick={() => handleNavigate(navigateRoute)}
 			>
 				{buttonText}
 				<img

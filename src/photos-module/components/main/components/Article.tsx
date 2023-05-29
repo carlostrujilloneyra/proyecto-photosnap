@@ -13,13 +13,16 @@ export const Article = ({ article:
 		arrowButton,
 		arrowButtonWhite,
 		changePosition,
-		whiteColor } }: Props) => {
+		whiteColor,
+		navigateRoute
+	} }: Props) => {
 	
 	const propsButton = {
 		buttonText,
 		whiteColor,
 		arrowButton,
-		arrowButtonWhite
+		arrowButtonWhite,
+		navigateRoute
 	}
 	
 	return (

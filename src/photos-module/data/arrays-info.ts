@@ -14,7 +14,8 @@ export const articlesArray: articleInterface [] = [
 		arrowButton: '/src/assets/shared/desktop/arrow.svg',
 		arrowButtonWhite: '/src/assets/shared/desktop/arrow-white.svg',
 		changePosition: true,
-		whiteColor: true
+		whiteColor: true,
+		navigateRoute: '/pricing'
 	},
 
 	{
@@ -29,7 +30,8 @@ export const articlesArray: articleInterface [] = [
 		arrowButton: '/src/assets/shared/desktop/arrow.svg',
 		arrowButtonWhite: '/src/assets/shared/desktop/arrow-white.svg',
 		changePosition: false,
-		whiteColor: false
+		whiteColor: false,
+		navigateRoute: '/stories'
 	},
 
 	{
@@ -44,7 +46,8 @@ export const articlesArray: articleInterface [] = [
 		arrowButton: '/src/assets/shared/desktop/arrow.svg',
 		arrowButtonWhite: '/src/assets/shared/desktop/arrow-white.svg',
 		changePosition: true,
-		whiteColor: false
+		whiteColor: false,
+		navigateRoute: '/stories'
 	}
 	
 ];

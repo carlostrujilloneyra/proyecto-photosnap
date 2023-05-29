@@ -10,7 +10,8 @@ export interface articleInterface{
 	arrowButton: string,
 	arrowButtonWhite: string,
 	changePosition: boolean,
-	whiteColor: boolean
+	whiteColor: boolean,
+	navigateRoute: string
 }
 
 interface Image{
