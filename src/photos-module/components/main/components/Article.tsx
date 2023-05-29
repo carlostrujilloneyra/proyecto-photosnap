@@ -21,8 +21,6 @@ export const Article = ({ article:
 		arrowButton,
 		arrowButtonWhite
 	}
-
-	console.log(changePosition)
 	
 	return (
 		<>

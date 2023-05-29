@@ -23,7 +23,7 @@
 }
 
 // Botón negro
-.button-article{
+.button-article, .button-storie{
 	background-color: transparent;
 	border: none;
 	color: $blackColor;
@@ -48,4 +48,16 @@
 		color: $whiteColor;
 	}
 
+}
+
+.button-storie{
+	color: white;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 2.4rem;
+	width: 100%;
+	justify-items: flex-start;
+}
+
+.button-storie img{
+	justify-self: flex-end;
 }

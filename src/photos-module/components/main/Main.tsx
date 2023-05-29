@@ -4,9 +4,6 @@ import { articlesArray } from '../../data';
 export const Main = () => {
 	return (
 		<>
-			
-			articlesArray
-
 			<main className="container">
 				<section>
 
