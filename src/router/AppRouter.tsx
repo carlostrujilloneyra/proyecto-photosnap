@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom"
-import { Header } from "../photos-module/components/header/Header"
+import { Header } from "../photos-module/components/Home/header/Header";
 import { HomePage } from "../photos-module/pages/HomePage"
 import { routes } from "./routes"
 

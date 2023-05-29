@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import arrowWhite from '../../../../assets/shared/desktop/arrow-white.svg';
+import arrowWhite from '../../../../../assets/shared/desktop/arrow-white.svg';
 
 export const Button = () => {
 

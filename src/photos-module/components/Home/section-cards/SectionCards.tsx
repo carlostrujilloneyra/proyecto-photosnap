@@ -1,5 +1,5 @@
 import { Card } from "./components";
-import { storiesHome } from '../../data/arrays-stories';
+import { storiesHome } from '../../../data/arrays-stories';
 
 export const SectionCards = () => {
 

@@ -1,4 +1,4 @@
-import { socials } from "../../../data"
+import { socials } from "../../../../data"
 
 export const SocialNetworks = () => {
 	return (

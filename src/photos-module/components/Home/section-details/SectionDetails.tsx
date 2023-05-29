@@ -1,6 +1,6 @@
-import { details } from "../../data"
+import { details } from "../../../data"
 import { DetailElement } from "./components/Detail"
-import { Detail } from '../../interfaces/details/details.interface';
+import { Detail } from '../../../interfaces/details/details.interface';
 
 export const SectionDetails = () => {
 

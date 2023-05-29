@@ -1,5 +1,5 @@
 import { Article } from "./components"
-import { articlesArray } from '../../data';
+import { articlesArray } from '../../../data';
 
 export const Main = () => {
 	return (

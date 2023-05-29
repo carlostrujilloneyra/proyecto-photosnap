@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import logoHeader from '../../../../assets/logos/header-icon.png';
+import logoHeader from '../../../../../assets/logos/header-icon.png';
 
 export const Logo = () => {
 
