@@ -33,7 +33,7 @@ export const Nav = () => {
 						className="main-button"
 						onClick={handleNavigate}
 					>
-						Get a inviteeeeeee
+						Get a invite
 					</button>
         </div>
       </div>
