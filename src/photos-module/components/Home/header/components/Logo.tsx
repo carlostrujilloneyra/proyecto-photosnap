@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+// import logoHeader from '../../../../../../assets/images/logos/header-icon.png';
 
 export const Logo = () => {
 
@@ -14,7 +15,7 @@ export const Logo = () => {
 				<img
 					className='logo-header'
 					onClick={handleNavigate}
-					src='/assets/logos/header-icon.png'
+					src={logoHeader}
 					alt="logo-header"
 				/>
 			</figure>
