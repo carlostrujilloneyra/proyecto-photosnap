@@ -15,7 +15,7 @@ export const Logo = () => {
 				<img
 					className='logo-header'
 					onClick={handleNavigate}
-					src={logoHeader}
+					src = '../assets/logos/header-icon.png'
 					alt="logo-header"
 				/>
 			</figure>
