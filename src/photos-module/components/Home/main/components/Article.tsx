@@ -1,4 +1,4 @@
-import { articleInterface } from '../../../interfaces/home/home-page.interface';
+import { articleInterface } from '../../../../interfaces/home/home-page.interface';
 import { Button } from './Button';
 
 interface Props{

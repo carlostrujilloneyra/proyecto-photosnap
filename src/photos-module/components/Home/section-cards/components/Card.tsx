@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Storie } from '../../../interfaces/stories/stories.interface';
+import { Storie } from '../../../../interfaces/stories/stories.interface';
 import { ButtonCard } from './ButtonCard';
 
 interface Props{

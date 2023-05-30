@@ -1,4 +1,4 @@
-import { Detail } from '../../../interfaces/details/details.interface';
+import { Detail } from '../../../../interfaces/details/details.interface';
 
 interface Props{
 	detail: Detail;
