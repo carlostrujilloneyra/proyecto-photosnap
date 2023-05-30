@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import footerLogo from '../../../../../assets/logos/footer-icon.png';
 
 export const LogoFooter = () => {
 
@@ -15,7 +14,7 @@ export const LogoFooter = () => {
         <picture>
 					<img
 						onClick={handleNavigateHome}
-						src={footerLogo}
+						src='/assets/logos/footer-icon.png'
 						alt="footer-logo" />
         </picture>
       </div>

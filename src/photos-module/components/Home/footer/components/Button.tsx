@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import arrowWhite from '../../../../../assets/shared/desktop/arrow-white.svg';
 
 export const Button = () => {
 
@@ -17,7 +16,7 @@ export const Button = () => {
 					className="button-footer"
 				>
 					Get an invite
-					<img src={arrowWhite} alt="arrow-white" />
+					<img src='/assets/shared/desktop/arrow-white.svg' alt="arrow-white" />
 				</button>
 			</div>
 		</>

@@ -14,7 +14,7 @@ export const ButtonCard = () => {
 				onClick={handleNavigatePageStories}
 				className="button-storie">
 				Read Story
-				<img src='/src/assets/shared/desktop/arrow-white.svg' alt="arrow-white" />
+				<img src='/assets/shared/desktop/arrow-white.svg' alt="arrow-white" />
 			</button>
 		</>
 	)
