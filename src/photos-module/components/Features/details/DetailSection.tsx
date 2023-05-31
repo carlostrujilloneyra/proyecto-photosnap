@@ -5,7 +5,7 @@ import { DetailElement } from "../../Home/section-details/components/Detail"
 export const DetailSection = () => {
 	return (
 		<>
-			<section className="feature-section">
+			<section className="feature-section container">
 				<div className="container-feature-details">
 					{
 						details.map((detail) => {

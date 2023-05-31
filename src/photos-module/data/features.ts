@@ -1,4 +1,4 @@
-import {HeroFeauture} from '../interfaces/features/feature.interface'
+import { HeroFeauture, BgFeature } from '../interfaces/features/feature.interface'
 
 export const heroFeature: HeroFeauture = {
 	title: 'Features',
@@ -7,5 +7,13 @@ export const heroFeature: HeroFeauture = {
 		bg_mobile: '/assets/features/mobile/hero.jpg',
 		bg_tablet: '/assets/features/tablet/hero.jpg',
 		bg_desktop: '/assets/features/desktop/hero.jpg'
+	}
+}
+
+export const imageFeature: BgFeature = {
+	image: {
+		bg_mobile: '/assets/shared/mobile/bg-beta.jpg',
+		bg_tablet: '/assets/shared/tablet/bg-beta.jpg',
+		bg_desktop: '/assets/shared/desktop/bg-beta.jpg'
 	}
 }

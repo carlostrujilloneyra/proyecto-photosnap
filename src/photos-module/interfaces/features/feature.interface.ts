@@ -10,3 +10,7 @@ interface Image{
 	bg_tablet: string,
 	bg_desktop: string
 }
+
+export interface BgFeature{
+	image: Image
+}

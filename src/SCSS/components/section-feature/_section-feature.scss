@@ -1,0 +1,31 @@
+@use '../../abstracts/mixins' as *;
+@use '../../abstracts/variables' as *;
+
+.main-section-feature{
+	display: grid;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	row-gap: 2.4rem;
+	padding: 6.4rem 3.2rem;
+
+	@include media-query(tablet){
+		grid-template-columns: 1fr max-content;
+		column-gap: 3.2rem;
+		row-gap: 0;
+	}
+
+	@include media-query(desktop){
+		justify-content: center;
+		align-items: center;
+		padding: 7.2rem 12rem;
+	}
+
+}
+
+.feature-container-info{
+	h2{
+		color: $whiteColor;
+		letter-spacing: .2rem;
+	}
+}

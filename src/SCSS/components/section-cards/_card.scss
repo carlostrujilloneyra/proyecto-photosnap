@@ -27,13 +27,13 @@
 		height: .9rem;
 		background: linear-gradient(to top, #FFC593, #BC7198, #5A77FF);
 		opacity: 0;
-		transition: all .9s;
+		transition: all .7s;
 	}
 
 	&:hover::after{
 		opacity: 1;
 		width: 100%;
-		transition: all .9s;
+		transition: all .7s;
 	}
 
 	h3{
