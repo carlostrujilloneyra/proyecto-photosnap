@@ -3,7 +3,7 @@ import { Button } from "../../Stories"
 import { imageFeature } from "../../../data";
 
 
-export const SectionFeature = () => {
+export const SectionBeta = () => {
 
 	const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 	

@@ -1,4 +1,4 @@
-import { DetailSection, HeroFeature, SectionFeature } from "../components/Features"
+import { DetailSection, HeroFeature, SectionBeta } from "../components/Features"
 
 
 export const FeaturesPage = () => {
@@ -6,7 +6,7 @@ export const FeaturesPage = () => {
 		<>
 			<HeroFeature />
 			<DetailSection />
-			<SectionFeature />
+			<SectionBeta />
 		</>
 	)
 }
