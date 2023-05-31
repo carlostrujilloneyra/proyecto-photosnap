@@ -46,3 +46,47 @@
 		width: 100%;
 	}
 }
+
+// Estilos para la sección de details de Features
+.feature-section{
+	padding: 6.4rem 3.2rem;
+
+	@include media-query(tablet){
+		padding: 12rem 4rem;
+	}
+
+	@include media-query(desktop){
+		padding: 16rem;
+	}
+}
+
+.container-feature-details{
+	display: grid;
+	row-gap: 5rem;
+
+	h3{
+		margin-top: 2.4rem;
+		margin-bottom: 1.6rem;
+	}
+
+	p{
+		text-align: center;
+	}
+
+	@include media-query(tablet){
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		column-gap: 1.2rem;
+		row-gap: 7.2rem;
+	}
+
+	@include media-query(desktop){
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		column-gap: 2.4rem;
+		row-gap: 10rem;
+	}
+
+
+
+}
