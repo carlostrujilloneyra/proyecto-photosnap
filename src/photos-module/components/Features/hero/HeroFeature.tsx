@@ -1,15 +1,17 @@
-import { heroFeature } from "../../../data"
+import { HeroFeature } from '../../../interfaces/features/feature.interface';
+interface Props{
+	heroData: HeroFeature;
+}
 
+export const HeroPage = ({heroData}: Props) => {
 
-export const HeroFeature = () => {
-
-	const {title, description, image: {bg_mobile, bg_tablet, bg_desktop}} = heroFeature;
+	const {title, description, image: {bg_mobile, bg_tablet, bg_desktop}} = heroData;
 
 	return (
 		<>
-			<div className="container-hero-feature container">
+			<div className="container-hero-page container">
 
-				<div className="container-feature-info">
+				<div className="container-hero-info">
 					<h2>{title}</h2>
 					<p>{description}</p>
 				</div>

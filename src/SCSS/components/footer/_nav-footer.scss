@@ -7,6 +7,15 @@
 	align-items: center;
 	margin-bottom: 3.2rem;
 
+	ul{
+		text-align: center;
+
+		@include media-query(tablet){
+			text-align: start;
+		}
+
+	}
+
 	@include media-query(tablet){
 		margin-bottom: 0
 	}

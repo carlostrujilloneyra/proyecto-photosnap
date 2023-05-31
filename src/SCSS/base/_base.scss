@@ -11,6 +11,10 @@ html{
 	font-family: 'DM Sans', sans-serif;
 }
 
+body{
+	min-height: 100vh;
+}
+
 // Clase que ayudará con el width:
 .container{
 	max-width: 130rem;

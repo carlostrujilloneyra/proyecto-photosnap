@@ -5,3 +5,4 @@ export * from './arrays-details';
 export * from './array-socials';
 export * from './hero-info';
 export * from './features';
+export * from './pricing'

@@ -1,10 +1,10 @@
-import { DetailSection, HeroFeature, SectionBeta } from "../components/Features"
-
+import { DetailSection, HeroPage, SectionBeta } from "../components/Features"
+import { heroFeature } from "../data"
 
 export const FeaturesPage = () => {
 	return (
 		<>
-			<HeroFeature />
+			<HeroPage heroData={heroFeature} />
 			<DetailSection />
 			<SectionBeta />
 		</>

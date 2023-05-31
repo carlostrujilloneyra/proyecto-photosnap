@@ -45,8 +45,8 @@
 
 }
 
-// Estilos para el hero de Features
-.container-hero-feature{
+// Estilos para el hero de Features!!!
+.container-hero-page{
 	display: grid;
 
 	.container-feature-info{
@@ -74,11 +74,10 @@
 
 }
 
-.container-feature-info{
+.container-hero-info{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	background-color: $blackColor;
 	padding: 7.2rem 2.4rem;
 

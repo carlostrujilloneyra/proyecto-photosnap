@@ -1,6 +1,6 @@
-import { HeroFeauture, BgFeature } from '../interfaces/features/feature.interface'
+import { HeroFeature, BgFeature } from '../interfaces/features/feature.interface'
 
-export const heroFeature: HeroFeauture = {
+export const heroFeature: HeroFeature = {
 	title: 'Features',
 	description: 'We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.',
 	image: {
