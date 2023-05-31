@@ -10,3 +10,11 @@ interface Image{
 	bg_tablet: string,
 	bg_desktop: string
 }
+
+export interface PricingPlan{
+	title: string,
+	description: string,
+	price: number,
+	frequency: string,
+	bg_black: boolean
+}
