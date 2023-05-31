@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { hero } from '../../../data/hero-info';
+import { Button } from './Button';
 
 export const Hero = () => {
 
@@ -36,6 +37,7 @@ export const Hero = () => {
 					<h2>{title}</h2>
 					<p>by {author}</p>
 					<p>{description}</p>
+					<Button />
 				</div>
 
 			</div>
