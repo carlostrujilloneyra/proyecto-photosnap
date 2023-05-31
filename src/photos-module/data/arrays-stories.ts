@@ -1,6 +1,6 @@
 import { Storie } from '../interfaces/stories/stories.interface';
 
-export const storiesHome: Storie[] = [
+export const stories: Storie[] = [
 	{
 		image: {
 			bg_mobile: '/assets/stories/mobile/mountains.jpg',

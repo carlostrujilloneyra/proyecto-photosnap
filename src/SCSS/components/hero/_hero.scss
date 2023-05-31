@@ -1,0 +1,44 @@
+@use '../../abstracts/mixins' as *;
+@use '../../abstracts/variables' as *;
+
+.container-hero{
+	padding: 4.8rem 2.4rem;
+	background-size: 100% 100%;
+	background-position: center center;
+
+	@include media-query(tablet){
+		padding: 6rem 4rem;
+	}
+
+	@include media-query(desktop){
+		padding: 10rem;
+	}
+
+}
+
+.container-hero__info{
+	max-width: 39rem;
+	color: $whiteColor;
+	opacity: .8;
+
+	@include media-query(tablet){
+		opacity: 1;
+	}
+
+	h3{
+		font-size: 1.2rem;
+		letter-spacing: .2rem;
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+	}
+
+	h2{
+		text-transform: uppercase;
+		margin-bottom: 1.6rem;
+	}
+
+	p{
+		margin-bottom: 2rem;
+	}
+
+}

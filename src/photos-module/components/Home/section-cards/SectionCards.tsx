@@ -1,9 +1,9 @@
 import { Card } from "./components";
-import { storiesHome } from '../../../data/arrays-stories';
+import { stories } from '../../../data/arrays-stories';
 
 export const SectionCards = () => {
 
-	const stories = storiesHome.slice(0, 4);
+	const storiesHome = stories.slice(0, 4);
 
 	return (
 		<>
@@ -11,7 +11,7 @@ export const SectionCards = () => {
 				{/* Arreglo de cards */}
 
 				{
-					stories.map((storie) => {
+					storiesHome.map((storie) => {
 						return <Card key={storie.name} storie = {storie}/>
 					})
 				}

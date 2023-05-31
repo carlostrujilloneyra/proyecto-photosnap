@@ -1,6 +1,6 @@
 @use '../../abstracts/mixins' as *;
 
-.section-cards{
+.section-cards, .section-cards-stories{
 	display: grid;
 	grid-template-rows: repeat(4, minmax(35rem, 40rem));
 
@@ -12,11 +12,19 @@
 
 	@include media-query(desktop){
 		grid-template-columns: repeat(4, minmax(25rem, 36rem));
-		grid-template-rows: repeat(auto-fill, minmax(38rem, 50rem));
+		grid-template-rows: repeat(1, minmax(38rem, 50rem));
+	}
+}
+
+.section-cards-stories{
+	grid-template-rows: repeat(16, minmax(35rem, 40rem));
+
+	@include media-query(tablet){
+		grid-template-rows: repeat(8, minmax(38rem, 50rem));
 	}
 
-	// @include media-query(1200px){
-	// 	grid-template-columns: repeat(4, minmax(25rem, 36rem));
-	// }
+	@include media-query(desktop){
+		grid-template-rows: repeat(4, minmax(38rem, 50rem));
+	}
 
 }
