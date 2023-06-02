@@ -1,12 +1,22 @@
 import { useState } from "react";
 import { iconsHeader } from "../../../../data";
 
-export const ToggleButton = () => {
+interface Props{
+	navRef: any,
+	showCloseIcon: boolean
+}
 
-	const [showIcon, setShowIcon] = useState<boolean>(false);
+export const ToggleButton = ({navRef, showCloseIcon}: Props) => {
+
+	const [showHamburguer, setShowHamburguer] = useState<boolean>(true);
 
 	const handleChangeIcon = () => {
-		setShowIcon(!showIcon);
+		
+		navRef.current.classList.toggle('new-nav');
+		
+		setTimeout(() => {
+			setShowHamburguer(!showHamburguer);
+		}, 180);
 	}
 	
 	const [hamburguer, close] = iconsHeader;
@@ -16,7 +26,7 @@ export const ToggleButton = () => {
 	return (
 		<>
 			<button onClick={handleChangeIcon} className="button-hamburguer-close">
-				<img src={!showIcon? iconHamburguer : iconClose} alt="icon-header" />
+				<img src={showHamburguer || !showCloseIcon ? iconHamburguer : iconClose} alt="icon-header" />
 			</button>
 		</>
 	)

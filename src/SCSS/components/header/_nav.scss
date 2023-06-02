@@ -10,11 +10,17 @@
 	left: 0;
 	padding: 3.2rem;
 	position: fixed;
-	top: 7.2rem;
+	top: -33.2rem;
 	width: 100%;
-	transition: right .5s;
+	transition: all .7s;
+	opacity: 1;
 
 	// Clase nueva que se añadirá con el toggle
+	&.new-nav{
+		opacity: 1;
+		top: 7.2rem;
+		transition: all .7s;
+	}
 
 	@include media-query(tablet){
 		align-items: center;
@@ -26,6 +32,7 @@
 		position: static;
 		top: 0;
 		width: 65%;
+		box-shadow: none;
 	}
 
 	@include media-query(desktop){
@@ -65,6 +72,7 @@ nav .list-header{
 	}
 }
 
+// Estilos menú hamburguesa
 .button-hamburguer-close{
 	background-color: transparent;
 	border: none;
@@ -76,6 +84,10 @@ nav .list-header{
 
 	img{
 		width: 2.4rem;
+	}
+
+	@include media-query(tablet){
+		display: none;
 	}
 
 }
