@@ -1,11 +1,17 @@
 @use '../../abstracts/mixins' as *;
+@use '../../abstracts/variables' as *;
 
 .main-header{
+	background-color: $whiteColor;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	height: 7.2rem;
+	justify-content: space-between;
 	padding: 2.4rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
 
 	@include media-query(tablet){
 		padding: 3.2rem;

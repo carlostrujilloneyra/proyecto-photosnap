@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { routes } from "../../../../../router/routes";
+import { ToggleButton } from "./ToggleButton";
 
 export const Nav = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ export const Nav = () => {
           </nav>
         </div>
 
-        <div>
+        <div className="container-button-header">
 					<button
 						className="main-button"
 						onClick={handleNavigate}
@@ -37,6 +38,10 @@ export const Nav = () => {
 					</button>
         </div>
       </div>
+
+      {/* Aquí mostraré el botón hamburguesa */}
+      <ToggleButton />
+
     </>
   );
 };

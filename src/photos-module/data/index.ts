@@ -6,3 +6,4 @@ export * from './array-socials';
 export * from './hero-info';
 export * from './features';
 export * from './pricing'
+export * from './icon-header';
