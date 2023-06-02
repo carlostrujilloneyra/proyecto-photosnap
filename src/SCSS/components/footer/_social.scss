@@ -4,9 +4,13 @@
 	display: grid;
 	grid-template-columns: repeat(5, 2rem);
 	column-gap: 1.2rem;
+	margin-top: 1.2rem;
 	margin-bottom: 3.6rem;
+	justify-content: center;
 
 	@include media-query(tablet){
+		justify-content: start;
+		margin-top: 0;
 		margin-bottom: 2.4rem;
 	}
 
