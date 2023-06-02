@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom"
-import { Header, Footer } from '../photos-module/components/Home'
 import { HomePage } from "../photos-module/pages/HomePage"
 import { routes } from "./routes"
+import { Footer, Header } from "../photos-module/components/shared"
 
 export const AppRouter = () => {
 	return (
