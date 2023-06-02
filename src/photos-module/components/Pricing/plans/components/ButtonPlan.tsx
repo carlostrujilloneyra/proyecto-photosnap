@@ -1,8 +1,14 @@
 
-export const ButtonPlan = () => {
+
+interface Props{
+	showColor: boolean
+}
+
+export const ButtonPlan = ({ showColor }: Props) => {
+
 	return (
 		<>
-			<button>Pick Plan</button>
+			<button className={`button-plan ${showColor? 'bg-white': ''}`}>Pick Plan</button>
 		</>
 	)
 }

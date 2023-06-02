@@ -63,7 +63,7 @@
 	}
 
 	@include media-query(desktop){
-		grid-template-columns: 1fr minmax(75rem, 83rem);
+		grid-template-columns: 1fr minmax(75rem, 82rem);
 	}
 
 	img{
@@ -89,6 +89,15 @@
 
 	p{
 		color: $textGreyDarken;
+
+		@include media-query(tablet){
+			width: 85%;
+		}
+
+		@include media-query(desktop){
+			width: 100%;
+		}
+
 	}
 
 	@include media-query(tablet){
@@ -98,5 +107,6 @@
 
 	@include media-query(desktop){
 		align-items: center;
+		padding: 10rem 2.8rem;
 	}
 }
