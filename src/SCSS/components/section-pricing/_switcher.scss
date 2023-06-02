@@ -12,7 +12,11 @@
 	grid-template-columns: max-content 1fr max-content;
   align-items: center;
 	column-gap: 3.2rem;
-	margin-bottom: 4.8rem;
+	margin-bottom: 3.2rem;
+
+  @include media-query(tablet){
+    margin-bottom: 4.8rem;
+  }
 
   p{
     font-size: 1.8rem;
