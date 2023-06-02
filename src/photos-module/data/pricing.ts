@@ -16,7 +16,48 @@ export const plansPricing: PricingPlan[] = [
 		description: 'Includes basic usage of our platform. Recommended for new and aspiring photographers.',
 		price: 19,
 		frequency: 'per month',
-		bg_black: false
+		bg_black: false,
+		benefits: [
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'UNLIMITED STORY POSTING'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'UNLIMITED PHOTO UPLOAD'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-black.svg',
+				text: 'EMBEDDING CUSTOM CONTENT'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-black.svg',
+				text: 'CUSTOMIZE METADATA'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-black.svg',
+				text: 'ADVANCED METRICS'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-black.svg',
+				text: 'PHOTO DOWNLOADS'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-black.svg',
+				text: 'SEARCH ENGINE INDEXING'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-black.svg',
+				text: 'CUSTOM ANALYTICS'
+			}
+		]
 	},
 
 	{
@@ -24,7 +65,48 @@ export const plansPricing: PricingPlan[] = [
 		description: 'More advanced features available. Recommended for photography veterans and professionals.',
 		price: 39,
 		frequency: 'per month',
-		bg_black: true
+		bg_black: true,
+		benefits: [
+			{
+				icon: '/public/assets/pricing/desktop/check-white.svg',
+				text: 'UNLIMITED STORY POSTING'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-white.svg',
+				text: 'UNLIMITED PHOTO UPLOAD'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-white.svg',
+				text: 'EMBEDDING CUSTOM CONTENT'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-white.svg',
+				text: 'CUSTOMIZE METADATA'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-white.svg',
+				text: 'ADVANCED METRICS'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-white.svg',
+				text: 'PHOTO DOWNLOADS'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-white.svg',
+				text: 'SEARCH ENGINE INDEXING'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/x-white.svg',
+				text: 'CUSTOM ANALYTICS'
+			}
+		]
 	},
 
 	{
@@ -32,6 +114,47 @@ export const plansPricing: PricingPlan[] = [
 		description: 'Additional features available such as more detailed metrics. Recommended for business owners.',
 		price: 99,
 		frequency: 'per month',
-		bg_black: false
+		bg_black: false,
+		benefits: [
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'UNLIMITED STORY POSTING'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'UNLIMITED PHOTO UPLOAD'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'EMBEDDING CUSTOM CONTENT'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'CUSTOMIZE METADATA'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'ADVANCED METRICS'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'PHOTO DOWNLOADS'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'SEARCH ENGINE INDEXING'
+			},
+
+			{
+				icon: '/public/assets/pricing/desktop/check-dark.svg',
+				text: 'CUSTOM ANALYTICS'
+			}
+		]
 	}
 ];

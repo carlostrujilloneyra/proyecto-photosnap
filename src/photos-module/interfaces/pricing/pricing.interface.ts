@@ -16,5 +16,11 @@ export interface PricingPlan{
 	description: string,
 	price: number,
 	frequency: string,
-	bg_black: boolean
+	bg_black: boolean,
+	benefits: Benefit[]
+}
+
+export interface Benefit{
+	icon: string,
+	text: string
 }

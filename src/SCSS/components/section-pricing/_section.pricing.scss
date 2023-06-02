@@ -15,7 +15,7 @@
 
 .container-grid-plans{
 	display: grid;
-	row-gap: 2.4rem;
+	row-gap: 3rem;
 
 	@include media-query(tablet){
 		grid-template-columns: minmax(31rem, 33rem);
@@ -25,6 +25,7 @@
 	@include media-query(desktop){
 		grid-template-columns: repeat(3, minmax(28rem, 35rem));
 		column-gap: 3.2rem;
+		row-gap: 0;
 	}
 }
 
@@ -45,7 +46,7 @@
 	@include media-query(desktop){
 		&:hover{
 			cursor: pointer;
-			transform: scale(1.1);
+			transform: scale(1.04);
 			transition: all .4s;
 		}
 	}
