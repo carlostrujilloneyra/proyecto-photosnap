@@ -1,4 +1,4 @@
-# proyecto-photosnap
+# Proyecto-photosnap
 Proyecto de React con Typescript.
 
 <p align="center">
@@ -10,7 +10,7 @@ Proyecto de React con Typescript.
 ## Getting Started
 1. Clonar el proyecto
 2. Ve a la carpeta del proyecto
-3. Instala las dependencias npm install
+3. Instala las dependencias ```npm install```
 4. Para levantar el proyecto en localhost, escribe: ```npm run dev```
 
 ## Tecnologías
