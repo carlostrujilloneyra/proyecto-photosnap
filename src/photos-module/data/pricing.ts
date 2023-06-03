@@ -20,42 +20,42 @@ export const plansPricing: PricingPlan[] = [
 		benefits: [
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'UNLIMITED STORY POSTING'
+				text: 'Unlimited story posting'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'UNLIMITED PHOTO UPLOAD'
+				text: 'Unlimited photo upload'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-black.svg',
-				text: 'EMBEDDING CUSTOM CONTENT'
+				text: 'Embedding custom content'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-black.svg',
-				text: 'CUSTOMIZE METADATA'
+				text: 'Customize metada'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-black.svg',
-				text: 'ADVANCED METRICS'
+				text: 'Advanced Metrics'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-black.svg',
-				text: 'PHOTO DOWNLOADS'
+				text: 'Photo downloads'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-black.svg',
-				text: 'SEARCH ENGINE INDEXING'
+				text: 'Search engine indexing'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-black.svg',
-				text: 'CUSTOM ANALYTICS'
+				text: 'Custom analytics'
 			}
 		]
 	},
@@ -69,42 +69,42 @@ export const plansPricing: PricingPlan[] = [
 		benefits: [
 			{
 				icon: '/assets/pricing/desktop/check-white.svg',
-				text: 'UNLIMITED STORY POSTING'
+				text: 'Unlimited story posting'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-white.svg',
-				text: 'UNLIMITED PHOTO UPLOAD'
+				text: 'Unlimited photo upload'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-white.svg',
-				text: 'EMBEDDING CUSTOM CONTENT'
+				text: 'Embedding custom content'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-white.svg',
-				text: 'CUSTOMIZE METADATA'
+				text: 'Customize metada'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-white.svg',
-				text: 'ADVANCED METRICS'
+				text: 'Advanced Metrics'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-white.svg',
-				text: 'PHOTO DOWNLOADS'
+				text: 'Photo downloads'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-white.svg',
-				text: 'SEARCH ENGINE INDEXING'
+				text: 'Search engine indexing'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/x-white.svg',
-				text: 'CUSTOM ANALYTICS'
+				text: 'Custom analytics'
 			}
 		]
 	},
@@ -118,42 +118,42 @@ export const plansPricing: PricingPlan[] = [
 		benefits: [
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'UNLIMITED STORY POSTING'
+				text: 'Unlimited story posting'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'UNLIMITED PHOTO UPLOAD'
+				text: 'Unlimited photo upload'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'EMBEDDING CUSTOM CONTENT'
+				text: 'Embedding custom content'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'CUSTOMIZE METADATA'
+				text: 'Customize metada'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'ADVANCED METRICS'
+				text: 'Advanced Metrics'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'PHOTO DOWNLOADS'
+				text: 'Photo downloads'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'SEARCH ENGINE INDEXING'
+				text: 'Search engine indexing'
 			},
 
 			{
 				icon: '/assets/pricing/desktop/check-dark.svg',
-				text: 'CUSTOM ANALYTICS'
+				text: 'Custom analytics'
 			}
 		]
 	}
