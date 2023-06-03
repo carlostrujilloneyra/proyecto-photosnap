@@ -2,10 +2,10 @@
 @use '../../abstracts/variables' as *;
 
 .main-section-feature{
-	display: grid;
 	background-position: center center;
-	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: grid;
 	row-gap: 2.4rem;
 	padding: 6.4rem 3.2rem;
 

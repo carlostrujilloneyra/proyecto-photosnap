@@ -3,9 +3,9 @@
 
 // Estilos para el hero de Stories
 .container-hero{
-	padding: 4.8rem 2.4rem;
-	background-size: 100% 100%;
 	background-position: center center;
+	background-size: 100% 100%;
+	padding: 4.8rem 2.4rem;
 
 	@include media-query(tablet){
 		padding: 6rem 4rem;
@@ -18,8 +18,8 @@
 }
 
 .container-hero__info{
-	max-width: 39rem;
 	color: $whiteColor;
+	max-width: 39rem;
 	opacity: .8;
 
 	@include media-query(tablet){
@@ -29,14 +29,14 @@
 	h3{
 		font-size: 1.2rem;
 		letter-spacing: .2rem;
-		text-transform: uppercase;
 		margin-bottom: 2rem;
+		text-transform: uppercase;
 	}
 
 	h2{
-		text-transform: uppercase;
-		margin-bottom: 1.6rem;
 		letter-spacing: .2rem;
+		margin-bottom: 1.6rem;
+		text-transform: uppercase;
 	}
 
 	p{
@@ -83,8 +83,8 @@
 
 	h2{
 		color: $whiteColor;
-		margin-bottom: 2rem;
 		letter-spacing: .3rem;
+		margin-bottom: 2rem;
 	}
 
 	p{

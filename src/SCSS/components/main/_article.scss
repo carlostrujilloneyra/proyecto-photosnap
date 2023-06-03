@@ -26,10 +26,6 @@
 
 		@include media-query(desktop){
 			grid-template-columns: 1fr minmax(60rem, 66rem);
-			
-			// .container-image{
-			// 	order: 2;
-			// }
 		}
 	}
 
