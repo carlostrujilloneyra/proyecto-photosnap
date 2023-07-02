@@ -3,6 +3,7 @@ import { HomePage } from "../photos-module/pages/HomePage"
 import { routes } from "./routes"
 import { Footer, Header } from "../photos-module/components/shared"
 import { AnimatePresence } from 'framer-motion';
+import { ScrollTop } from "../photos-module/components/shared/ScrollTop";
 
 export const AppRouter = () => {
 
@@ -10,6 +11,8 @@ export const AppRouter = () => {
 
 	return (
 		<>
+			<ScrollTop />
+			
 			<Header />
 
 			<AnimatePresence>
