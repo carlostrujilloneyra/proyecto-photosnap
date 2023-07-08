@@ -56,3 +56,16 @@
 	}
 
 }
+
+.developed-by{
+	color: #fff;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 4rem;
+
+	@include media-query(tablet){
+		text-align: start;
+		margin-top: 3.2rem;
+	}
+
+}

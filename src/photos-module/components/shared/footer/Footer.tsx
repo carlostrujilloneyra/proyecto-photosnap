@@ -24,6 +24,10 @@ export const Footer = () => {
 	
 				</div>
 
+				<div className='developed-by'>
+					<p>Desarrollado por: Carlos Trujillo</p>
+				</div>
+
 			</footer>
 		</>
 	)
